@@ -1,0 +1,173 @@
+body { 
+	background: #FFF6EF;
+	padding: 2px;
+	
+}
+
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.main {
+	background: #EAE9E8;
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+footer {
+	background: #C9C8C5;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+  nav {
+	float: center;
+	
+  }  
+  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }  
+  nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+  }
+  nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+  } 
+  nav a:hover {
+	color: #000;
+  } 
+  nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #444;
+  
+	position: absolute;
+	top: 0;
+	width: 0%;
+  
+	transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+	width: 100%;
+  }
+
+
+
+.content_hakkimda {
+	
+
+	color: grey;
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	/* padding: 0.5%; */
+	/* padding: 0; */
+	/* padding-top: 1%; */
+	/* padding-bottom: 2%; */
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	max-width: 70%;
+	padding: 1%;
+	
+
+}
+
+/* .image_container {
+	width: 40%;
+	padding: 0px;
+	padding-right: 5%;
+} */
+
+.content_hakkimda img {
+	
+	height: auto;
+	width: 40%;
+	/* object-fit: cover; */
+	padding: 0; 
+	/* padding-top: 10px; */
+}
+
+.text {
+	color: gray;
+	/* width: 70%; */
+	padding: 0px;
+	padding-left: 5%;
+
+	text-align: center;
+	justify-content: center;
+}
+
+.tedavi_alanlari {
+	color: grey;
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	/* padding: 0.5%; */
+	/* padding: 0; */
+	/* padding-top: 1%; */
+	/* padding-bottom: 2%; */
+	text-align: center;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: auto;
+	/* max-width: 70%; */
+	padding: 1%;
+}
+
+.tedavi_alanlari rect {
+	box-sizing: border-box;
+	/* position: absolute; */
+	width: 351px;
+	height: 400px;
+	/* left: 30px; */
+	/* top: 267px; */
+	
+	background: #FFE7E7;
+	border-radius: 61px;
+	display: flex;
+  justify-content:center;
+  align-items: center;
+  color: black;
+}
+
+.tedavi_alanlari ul {
+	margin-left: 0; 
+	padding-left: 5px;
+	/* text-align: center; */
+	display: table; 
+    margin: 0 auto;
+    text-align: left;
+	font-size: medium;
+	font-family: 'Raleway', sans-serif;
+	/* font-weight: 300; */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	/* padding-top: 10px; */
+}
+
+.tedavi_alanlari li {
+	/* text-align: center; */
+	margin: 10px;
+}
